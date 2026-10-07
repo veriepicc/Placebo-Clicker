@@ -4,6 +4,12 @@ An external autoclicker for Minecraft Bedrock, written in Ada. No DLL injection,
 
 Small footprint by design: approximately 500 KB on disk, under 2 MB private working set, and effectively zero CPU/GPU usage while idle (event-driven repaints, no render loop).
 
+## Showcase
+
+| Interface | Demo |
+| --- | --- |
+| <img src="assets/preview.png" width="330"> | <img src="assets/combo.gif" width="380"> |
+
 ## How It Clicks
 
 - A low-level mouse hook (`WH_MOUSE_LL`) tracks the true physical button state.
