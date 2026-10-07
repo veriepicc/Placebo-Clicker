@@ -1,0 +1,14 @@
+name = "ada_clicker"
+description = "external autoclicker in ada with proven spark core"
+version = "0.1.0-dev"
+
+authors = ["veriepicc"]
+
+licenses = "MIT"
+tags = ["game", "spark"]
+
+[dependencies]
+gnatprove = "*"
+
+[build]
+gpr-file = "ada_clicker.gpr"

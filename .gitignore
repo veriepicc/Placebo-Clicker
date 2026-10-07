@@ -1,0 +1,9 @@
+# build outputs
+obj/
+bin/
+# local stuff
+*.log
+*.ini
+# os junk
+.DS_Store
+Thumbs.db
